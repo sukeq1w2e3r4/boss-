@@ -1,0 +1,149 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+html{
+    font-size: 26.67vw;
+}
+#head{
+    width: 100%;
+    height: 0.85rem;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+#head span{
+    font-size: 0.23rem;
+    color: #5dd4c8;
+    float: left;
+    position: absolute;
+    top: 0.310rem;
+    left: 1.1rem;
+}
+#war{
+    width: 100%;
+    height: 5rem;
+    /* background-color: yellow; */
+    position: relative;
+}
+#war .one{
+    width: 3rem;
+    height: 0.4rem;
+    border: 1px solid #e3e7ec;
+    position: absolute;
+    top: 0.18rem;
+    left: 0.4rem;
+    font-size: 0.11rem;
+    color: #414a60;
+    text-align: left;
+    line-height: 0.4rem;
+    text-indent: 0.05rem;
+}
+#war .ipt1{
+    width: 2rem;
+    height: 0.4rem;
+    outline: none;
+    border: 0px;
+    position: absolute;
+    left: 1rem;
+    top: 0.19rem;
+}
+
+#war .two{
+    width: 3rem;
+    height: 0.4rem;
+    border: 1px solid #e3e7ec;
+    position: absolute;
+    top: 0.895rem;
+    left: 0.4rem;
+    font-size: 0.11rem;
+    color: #414a60;
+    text-align: left;
+    line-height: 0.4rem;
+    text-indent: 0.05rem;
+}
+#war .ipt2{
+    width: 2rem;
+    height: 0.4rem;
+    outline: none;
+    border: 0px;
+    position: absolute;
+    left: 1rem;
+    top: 0.909rem;
+}
+
+#war .three{
+    width: 3rem;
+    height: 0.45rem;
+    border: 1px solid #e3e7ec;
+    position: absolute;
+    top: 1.5rem;
+    left: 0.4rem;
+    font-size: 0.11rem;
+    color: #414a60;
+    text-align: left;
+    line-height: 0.4rem;
+    text-indent: 0.05rem;
+}
+#war .ipt3{
+    width: 1.45rem;
+    height: 0.4rem;
+    outline: none;
+    border: 0px;
+    position: absolute;
+    left: 1rem;
+    top: 1.52rem;
+}
+#war .yan{
+    width:1rem ;
+    height: 0.4rem;
+    position: absolute;
+    top: 1.54rem;
+    left: 2.3rem;
+    font-size: 0.225rem;
+    color: #5dd4c8;
+    line-height: 0.4rem;
+    text-align: center;
+}
+#war .four{
+    width: 3rem;
+    height: 0.4rem;
+    background-color: #5dd4c8;
+    top: 2.22rem;
+    left: 0.4rem;
+    position: absolute;
+    font-size: 0.14rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.4rem;
+}
+#war .five{
+    width: 3rem;
+    height: 0.7rem;
+    position: absolute;
+    margin-top: 2.8rem;
+    left: 0.4rem;
+}
+#war .five input{
+    float: left;
+    margin-left: 0.15rem;
+}
+#war .five .ul-1{
+    margin-top: 0.3rem;
+}
+#war .five li{
+        list-style: none;
+        font-size: 0.005rem;
+        color: #9fa3b0;
+        float: left;
+}
+#war .five .ul-2{
+    margin-top: 0.227rem;
+    margin-left: 0.8rem;
+}
+#war .five  a{
+    color: #3fc9b8;
+}
