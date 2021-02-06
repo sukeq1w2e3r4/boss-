@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    height: 100%;
+}
+#head{
+    width: 100%;
+    height: 0.55rem;
+    position: relative;
+}
+#head .img1{
+    width: 0.175rem;
+    height: 0.175rem;
+    position: absolute;
+    top: 0.18rem;
+    left: 0.18rem;
+}
+#head .one{
+    width: 0.635rem;
+    height: 0.3rem;
+    background-color: #f4f7f9;
+    position: absolute;
+    left: 0.49rem;
+    top: 0.13rem;
+    border-radius: 0.12rem 0 0 0.12rem;
+    font-size: 0.11rem;
+    color: #333333;
+    line-height: 0.3rem;
+    text-align: center;
+}
+#head .one li{
+    list-style: none;
+    padding-left: 0.14rem;
+    padding-right: 0.2rem;
+    width: 0.28rem;
+    height: 0.15rem;
+    border-right: 2px solid #e9eaec;
+    line-height: 0.12rem;
+    margin-top: 0.075rem;
+}
+#head input{
+    width: 1.5rem;
+    height: 0.3rem;
+    background-color: #f4f7f9;
+    position: absolute;
+    left: 1.12rem;
+    top: 0.13rem;
+    border: 0;
+    outline: none;
+    text-indent: 0.05rem;
+}
+#head .two {
+    width: 0.25rem;
+    height: 0.3rem;
+    background-color: #f4f7f9;
+    position: absolute;
+    left: 2.565rem;
+    top: 0.13rem;
+    border-radius:0 0.12rem 0.12rem 0;
+}
+#head .two img{
+    width: 0.11rem;
+    height: 0.11rem;
+    float: left;
+    margin-top: 0.09rem;
+   
+}
+#head  span{
+    font-size: 0.14rem;
+    color: #5dd4ca;
+    float:right;
+    margin-top: 0.18rem;
+    margin-right: 0.51rem;
+}
+#head .three{
+    font-size: 0.095rem;
+    color: #5dd4ca;
+    position: absolute;
+    right: 0.16rem;
+    top: 0.08rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#head .three img{
+    width: 0.19rem;
+    height: 0.19rem;
+}
+#daohang{
+    width: 100%;
+    height: 0.37rem;
+    border-top: 0.01rem solid #ebebeb;
+    border-bottom: 0.01rem solid #ebebeb;
+}
+#daohang li {
+    list-style: none;
+    font-size: 0.11rem;
+    color: #aaaaaa;
+}
+#daohang img{
+    width: 0.07rem;
+    height: 0.045rem;
+}
+#daohang ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.11rem;
+}
+#xiang{
+    width: 100%;
+    height: 8rem;
+}
+#xiang .mo{
+    width: 3.39rem;
+    height: 0.91rem;
+    position: relative;
+    margin: 0 auto;
+    border-bottom: 1px solid #f3f4f9;
+}
+#xiang .mo img{
+    width: 0.6rem;
+    height: 0.6rem;
+    float: left;
+    margin-top: 0.15rem;
+}
+#xiang .mo  ul{
+    width: 1.49rem;
+    height: 0.91rem;
+    float: left;
+    margin-left:0.36rem
+}
+#xiang .mo li{
+    list-style: none;
+    font-size: 0.11rem;
+    margin-bottom: 0.04rem;
+    color: #414a60
+}
+#xiang .mo span{
+    color: #fc6c37;
+    font-size: 0.14rem;
+    position: absolute;
+    right: 0.19rem;
+    top: 0.2rem;
+}

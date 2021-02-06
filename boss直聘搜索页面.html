@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boss直聘搜索页面</title>
+    <link rel="stylesheet" href="./boss直聘搜索页面.css">
+</head>
+<body>
+    <div id="head">
+        <img src="./img/11.png" alt="" class="img1">
+        <div class="one">
+            <li>全国</li>
+        </div>
+        <input type="text" placeholder="搜索内容">
+        <div class="two">
+            <img src="./img/10.png" alt="">
+        </div>
+        <span>搜索</span>
+        <div class="three">
+            <img src="./img/9.png" alt="">
+            消息
+        </div>
+    </div>
+    <!-- 导航 -->
+    <div id="daohang">
+     <ul>
+         <li>经验
+             <img src="./img/12.png" alt="">
+         </li>
+         <li>学历
+            <img src="./img/12.png" alt="">
+         </li>
+         <li>薪资
+            <img src="./img/12.png" alt="">
+         </li>
+         <li>规模
+            <img src="./img/12.png" alt="">
+         </li>
+         <li>融资
+            <img src="./img/12.png" alt="">
+         </li>
+     </ul>
+    </div>  
+    <!-- 详情 -->
+    <div id="xiang">
+        <div class="mo" v-for="shang in shangs">
+           <img :src="shang.img" alt="">
+            <ul class="ul1">
+                <li :style='li1'>{{shang.l1}}</li>
+                <li>{{shang.l2}}</li>
+                <li :style="li2">{{shang.l3}}</li>
+            </ul>
+            <span>{{shang.span}}</span>
+        </div>
+    </div>
+    <script src="./js/vue.js"></script>
+    <script src="./boss直聘搜索页面.js"></script>
+</body>
+</html>
